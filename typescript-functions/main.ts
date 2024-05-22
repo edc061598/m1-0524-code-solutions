@@ -9,13 +9,13 @@ function greet(name: string): string {
   return 'Hey ' + name + '!';
 }
 const greetResult: string = greet('Enrique');
-console.log(greetResult);
+console.log('value of greetResult ', greetResult);
 
 const area = (width: number, height: number): number => {
   return width * height;
 };
 const areaResult: number = area(10, 5);
-console.log(areaResult);
+console.log('areaResult value ', areaResult);
 
 interface Person {
   firstName: string;
@@ -35,7 +35,7 @@ const getLastElement = (array: any[]): any => {
   return array[array.length - 1];
 };
 const getLastElementResult: any = getLastElement(['propane', 'and', 'propane']);
-console.log(getLastElementResult);
+console.log('getLastElementResult value ', getLastElementResult);
 
 function callOtherFunction(otherFunction: Function, params: unknown): string {
   return otherFunction(params);
