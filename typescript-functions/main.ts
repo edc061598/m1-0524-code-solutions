@@ -44,4 +44,4 @@ function callOtherFunction(otherFunction: Function, params: unknown): string {
 const callOtherFunctionResult: any = convertMinutestoSeconds(10);
 console.log('value of callOtherFunctionResult ', callOtherFunctionResult);
 const callResult: any = callOtherFunction(getFirstName, 'Enrique');
-console.log(callResult);
+console.log('value of callResult ', callResult);
