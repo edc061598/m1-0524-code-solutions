@@ -1,5 +1,7 @@
 "use strict";
 function getDescriptionOfPerson(person) {
-    const personDescription = person.name + person.occupation + person.birthPlace;
-    return personDescription;
+    const personName = person.name;
+    const personOccupation = person.occupation;
+    const personBirthplace = person.birthPlace;
+    return `${personName} is a ${personOccupation} from ${personBirthplace}.`;
 }
