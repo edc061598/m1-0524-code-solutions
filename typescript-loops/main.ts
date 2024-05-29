@@ -48,9 +48,9 @@ console.log(logEachCharacter('javascript'));
 
 function doubleAll(numbers: number[]): number[] {
   const doubled: number[] = [];
+
   for (let i: number = 0; i < numbers.length; i++) {
-    numbers[i] += 2;
-    doubled.push(numbers[i]);
+    doubled.push(numbers[i] * 2);
   }
   return doubled;
 }
