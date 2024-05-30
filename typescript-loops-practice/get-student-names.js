@@ -1,9 +1,8 @@
-"use strict";
-/* exported getStudentNames */
+'use strict';
 function getStudentNames(students) {
-    const keys = [];
-    for (const key in students) {
-        keys.push(students[key]);
-    }
-    return keys;
+  const keys = [];
+  for (let i = 0; i < students.length; i++) {
+    keys.push(students[i].name);
+  }
+  return keys;
 }

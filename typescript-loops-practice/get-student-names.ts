@@ -1,8 +1,12 @@
 /* exported getStudentNames */
-function getStudentNames(students: any[]): unknown[] {
+interface Students {
+  name: string;
+}
+
+function getStudentNames(students: Students[]): string[] {
   const keys: any[] = [];
-  for (const key in students) {
-    keys.push(students[key]);
+  for (let i: number = 0; i < students.length; i++) {
+    keys.push(students[i].name);
   }
   return keys;
 }
