@@ -4,10 +4,57 @@
     <title>HTML-forms</title>
   </head>
   <body>
-    <form >
-      <div class="textbox">
-      <label for="Email">Email </label>
-      </div>
+    <h1> Coding Form!</h1>
+   <div>
+    <form action = "https://example.com/register"  method="post">
+      <label for="Email">Email</label>
+    </div>
+    <div>
+      <input type="text" name="email"/>
+    </div>
+
+    <div>
+    <label for="why-coding">Why is coding cool?</label>
+    </div>
+
+     <select id="why-coding" name="why-coding">
+      <option value="">Select an option</option>
+      <option value="interesting">Because it's interesting</option>
+      <option value="fun">Because it's fun</option>
+      <option value="powerful">Because it's powerful</option>
+     </select>
+
+     <p>Favorite Language (choose one)</p>
+
+      <label>
+        <input type="radio" name="preference" value="language"/>
+        HTML
+      </label>
+      <label>
+        <input type="radio" name="preference" value="language"/>
+         CSS
+      </label>
+      <label>
+        <input type="radio" name="preference" value="language"/>
+         JAVASCRIPT
+      </label>
+
+
+     <p>Would you like to sign up for more information?</p>
+
+
+        <label><input type="radio" name="checkbox" value="check"/>Sign me up!</label>
+
+       <div>
+        <label for="comments">Comments</label>
+         </div>
+          <textarea id="comments" name="comments"></textarea>
+
+        <div>
+          <button type="submit">Submit</button>
+          </div>
+
     </form>
+
   </body>
 </html>
