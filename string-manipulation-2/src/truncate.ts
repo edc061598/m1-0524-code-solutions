@@ -1,9 +1,13 @@
 /* exported truncate */
 function truncate(length:number, string:string):string{
- const newString:string = "";
- for(let index:number = 0; index < string.length; index ++){
-  string[index];
-
+ for(let index:number =  length; index < string.length; index++){
+  if(string.length > index){
+    return string.slice(0, index) + "...";
+  } else{
+  string = "";
  }
- return newString;
+
+}
+ return string + '...';
+
 }
