@@ -1,13 +1,13 @@
-body{
+body {
   color: #090302;
   font-family: sans-serif;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-article{
+article {
   padding-left: 16px;
   padding-right: 16px;
   border: 1px solid;
@@ -15,19 +15,19 @@ article{
   margin-bottom: 16px;
 }
 
- title{
-  font-family:monospace;
+title {
+  font-family: monospace;
   font-size: 24px;
 }
 
-#html{
-  border: red ;
+#html {
+  color: red;
 }
 
-#css{
-  border: green;
+#css {
+  color: green;
 }
 
-#js{
-  border:blue;
+#js {
+  color: blue;
 }
