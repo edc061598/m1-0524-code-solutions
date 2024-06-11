@@ -5,12 +5,13 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the purpose of an HTML `form` element?
-
+  Container for different types of input elements.
 - Give five examples of form control elements.
-
+  form, label, input, fieldset and legend are all examples of form control.
 - Give three examples of `type` attribute values for HTML `<input>` elements.
-
+  Text, email and password.
 - Is an HTML `<input>` element a block element or an inline element?
+  It is a block element because it starts on a new line
 
 ## Notes
 
