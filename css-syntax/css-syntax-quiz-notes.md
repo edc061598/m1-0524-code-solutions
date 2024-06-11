@@ -5,12 +5,13 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What are the names of the individual pieces of a CSS rule?
-
+  Selectors and declaration blocks.
 - In CSS, how do you select elements by their `class` attribute?
-
+  You use a dot followed by the class name
 - In CSS, how do you select elements by their tag name?
-
+  Have their tag name with open and closing curly braces
 - In CSS, how do you select an element by its `id` attribute?
+  Use the # symbol to indicate and id attribute
 
 ## Notes
 
