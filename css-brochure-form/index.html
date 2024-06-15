@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Challenge - Brochure Form</title>
-  <link rel="stylesheet" href="fonts.css">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Challenge - Brochure Form</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>Learn More</p>
 
-  <p>Learn More</p>
-
-<form action="http://localhost:5500/css-brochure-form/index.html" method="post">
-  <div class="company">
-  <label for="company" >Company Email</label>
-  </div>
-
-  <div>
-    <input type="text" id="company" name="company" placeholder="sally@company.co"/>
-    </div>
-
-    <div class="name">
-    <label for="Name"> Name</label>
-    </div>
-
-    <div>
-    <input type="text" id="Name" name="Name" placeholder="Sally Smith"/>
-    </div>
-
-    <div class="hiring">
-    <label for="hiring"> WHERE ARE YOU HIRING?</label>
-    </div>
-
-    <div>
-      <input type="text" id="hiring" name="hiring" placeholder="City, Country"/>
-    </div>
-
-    <div class="engineers">
-    <label for="engineers">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
-    </div>
-
-    <div class="options">
-      <select id="engineers" name="engineers">
-        <option class="value" value="1-2">1-2 engineers</option>
-        <option class="value" value="3-4">3-4 engineers</option>
-        <option class="value" value="5-6">5-6 engineers</option>
-      </select>
-    </div>
-
-    <div class="submit">
-      <button type="submit">SUBMIT</button>
+      <form
+        action="http://localhost:5500/css-brochure-form/index.html"
+        method="post">
+        <div class="brochure">
+          <label for="company">Company Email</label>
         </div>
 
+        <div>
+          <input
+            type="text"
+            id="company"
+            name="company"
+            placeholder="sally@company.co" />
+        </div>
 
-</form>
-</body>
+        <div class="brochure">
+          <label for="Name"> Name</label>
+        </div>
+
+        <div>
+          <input type="text" id="Name" name="Name" placeholder="Sally Smith" />
+        </div>
+
+        <div class="brochure">
+          <label for="hiring"> WHERE ARE YOU HIRING?</label>
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="hiring"
+            name="hiring"
+            placeholder="City, Country" />
+        </div>
+
+        <div class="brochure">
+          <label for="engineers"
+            >HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label
+          >
+        </div>
+
+        <div class="brochure">
+          <select id="engineers" name="engineers">
+            <option value="1-2">1-2 engineers</option>
+            <option value="3-4">3-4 engineers</option>
+            <option value="5-6">5-6 engineers</option>
+          </select>
+        </div>
+
+        <div class="submit">
+          <button type="submit">SUBMIT</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
