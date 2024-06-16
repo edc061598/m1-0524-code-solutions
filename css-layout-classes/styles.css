@@ -1,0 +1,33 @@
+body{
+  font-family: sans-serif;
+  margin: 100;
+}
+
+.container{
+  max-width: 800px;
+  margin:  0 auto;
+}
+
+.row{
+  display: flex;
+}
+
+.column-full{
+  width:100%;
+}
+
+.column-one-third{
+  width: calc(100% / 3);
+}
+
+.column-one-fourth{
+  width: 25%;
+}
+
+.column-two-thirds{
+  width:calc(200% / 3);
+}
+
+.character{
+  width: 100%
+}
