@@ -1,0 +1,21 @@
+button:hover {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 20em;
+  height: 10em;
+}
+
+thead > tr {
+  color: white;
+  background-color: black;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+table.striped thead {
+  color: white;
+}
