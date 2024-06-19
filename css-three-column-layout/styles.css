@@ -1,0 +1,32 @@
+.container{
+  width:100%;
+}
+
+.row{
+  display: flex;
+  text-align: center;
+}
+
+.column-full{
+  width: 100%;
+}
+
+body{
+  color: white;
+  background-color:dodgerblue;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.column-one-third{
+  width:calc(100% / 3);
+}
+
+img{
+  background-color: white;
+  border-radius: 80%;
+}
+
+.image{
+  width:20%;
+}
