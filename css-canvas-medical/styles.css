@@ -1,0 +1,17 @@
+.row{
+  display: flex;
+}
+
+.tabs{
+  text-align: end;
+  justify-content: end;
+}
+
+.hero-pic{
+  position: relative;
+}
+
+.picture-text{
+  color: blue;
+  position: absolute;
+}
