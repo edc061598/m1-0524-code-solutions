@@ -1,0 +1,49 @@
+.container{
+  width:100%;
+}
+
+.row{
+  display: flex;
+
+}
+
+.column-full{
+  width: 100%;
+}
+
+body{
+  color: white;
+  background-color:dodgerblue;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.column-one-third{
+  flex-basis: calc(100% / 3);
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.image{
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+   background-color: white;
+
+}
+
+img{
+  width: 50%
+}
+
+.column-container{
+  display: flex;
+  justify-content: center;
+}
