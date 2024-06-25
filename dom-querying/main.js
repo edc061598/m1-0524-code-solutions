@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 console.log('hello, world');
 const $element = document.querySelector('h1');
 console.log($element);
