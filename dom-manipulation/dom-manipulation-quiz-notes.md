@@ -4,7 +4,7 @@
 
 Answer the following questions in the provided markdown file before turning in this exercise:
 
-- What is the `className` property of element objects?
+- What is the `className` property of element objects? hello
   Property of DOM elements that allows you to access and manipulate the CSS classes applied to an element.
 - How do you update the CSS class attribute of an element using JavaScript?
   using the .className attribute for the querySelector.
