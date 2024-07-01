@@ -16,6 +16,7 @@ Answer the following questions in the provided markdown file before turning in t
   The remove method
 - If you wanted to insert new clickable DOM elements into the page using JavaScript, how could you avoid adding an event listener to every new element individually?
   You would do event capturing that would capture all of the elements that would happen inside of the DOM. So long as the propagation is not stopped.
+  some code stuff
 
 ## Notes
 
