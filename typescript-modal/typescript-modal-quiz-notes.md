@@ -15,6 +15,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 ## Notes
 
+hello
 All student notes should be written here.
 
 How to write `Code Examples` in markdown
