@@ -1,0 +1,38 @@
+.container-on {
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+}
+
+.container-off {
+  width: 100%;
+  height: 100vh;
+  background-color: darkgray;
+}
+
+.lightbulb {
+  display: flex;
+  align-items: center;
+}
+
+.bulb-on {
+  border-radius: 50%;
+  width: 200px;
+  background-color: yellow;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: 230px;
+}
+
+.bulb-off {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 230px;
+}
+
+body {
+  margin: 0 auto;
+}
