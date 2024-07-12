@@ -11,7 +11,7 @@ get item method
 - What data type can `localStorage` save in the browser?
 strings
 - When is the safest time to store user data?
-
+whenever the user modifies anything as soon as possible
 ## Notes
 
 All student notes should be written here.

@@ -6,9 +6,7 @@ interface Todo {
 }
 const $todos = document.querySelector('#todo-form');
 
-let todos: Todo[] = [
-
-];
+let todos: Todo[] = readTodos();
 
 
 
@@ -18,10 +16,11 @@ function writeTodos(): void{
   localStorage.setItem('todos-storage', todosJSON);
 }
 
-function readTodos(): void{
-  writeTodos();
+function readTodos(): Todo[]{
   const getItems = localStorage.getItem('todos-storage');
   if(getItems !== null){
-  todos = JSON.parse(getItems);
+  return JSON.parse(getItems);
+  } else {
+    return [];
   }
 }
