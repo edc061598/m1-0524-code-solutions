@@ -12,5 +12,3 @@ function readTodos() {
         todos = JSON.parse(getItems);
     }
 }
-writeTodos();
-readTodos();

@@ -25,6 +25,3 @@ function readTodos(): void{
   todos = JSON.parse(getItems);
   }
 }
-
-writeTodos();
-readTodos();

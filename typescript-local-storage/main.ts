@@ -14,7 +14,10 @@ $todoForm.addEventListener('submit', (event: Event) => {
     todoId: uuidv4(),
     task: $formElements.task.value,
     isCompleted: false,
+
   };
+      writeTodos();
+      readTodos();
   todos.push(todo);
   $todoList.appendChild(renderTodo(todo));
   $todoForm.reset();
@@ -31,6 +34,8 @@ $todoList.addEventListener('change', (event: Event) => {
       break;
     }
   }
+      writeTodos();
+      readTodos();
 });
 
 for (let i = 0; i < todos.length; i++) {

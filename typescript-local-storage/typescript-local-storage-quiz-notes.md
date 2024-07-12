@@ -5,11 +5,11 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - How do you store data in `localStorage`?
-
+using set item method
 - How do you retrieve data from `localStorage`?
-
+get item method
 - What data type can `localStorage` save in the browser?
-
+strings
 - When is the safest time to store user data?
 
 ## Notes
