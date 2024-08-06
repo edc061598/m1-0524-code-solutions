@@ -14,7 +14,7 @@ function getRangeReport(start, end) {
         }
         range.push(i);
         average = (start + end) / 2;
-        total += range.push(i) / 2;
+        total += i;
     }
     return [total, odds, evens, range, average];
 }

@@ -13,13 +13,12 @@ for(let i:number = start; i <= end; i++){
 
   } else{
     evens.push(i);
-
   }
-   range.push(i);
 
+  range.push(i);
 
    average = (start + end) / 2;
-  total += range.push(i) / 2;
+  total += i;
 
 }
 
