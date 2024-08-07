@@ -10,7 +10,7 @@ const { title: booktitle, author: goodAuthor, libraryId: entry } = book1;
 console.log(booktitle, goodAuthor, entry);
 const { title: awesometitle, author: bestAuthor, libraryId: newEntry } = book1;
 console.log(awesometitle, bestAuthor, newEntry);
-console.log('The title of the book is ' + title + ', ' + 'the author is ' + author + ', ' + 'and the library id is ' + libraryId);
+console.log('The title of the book is ' + title + ', ' + 'the author is ' + goodAuthor + ', ' + 'and the library id is ' + newEntry);
 const book2 = {
     title: "Les Fleurs du mal",
     author: "Charles Baudelaire",
