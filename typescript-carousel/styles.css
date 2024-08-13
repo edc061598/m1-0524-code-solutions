@@ -15,13 +15,16 @@
   position: relative;
   height: 100%;
   width:100%;
-
+  overflow: hidden;
 }
 
 .carousel-list{
   padding: 0;
   margin: 0;
   list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
 }
 
 .carousel-slide{
@@ -54,4 +57,9 @@
   height: 20px;
   background-color: black;
   margin: 0 5px;
+}
+
+.column-one-fourth{
+  display: flex;
+  justify-content: space-between;
 }
