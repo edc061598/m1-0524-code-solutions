@@ -1,0 +1,500 @@
+  121  git switch html-block-and-inline
+  122  git add html-block-and-inline
+  123  git commit -m "still working" --no-verify 
+  124  git status 
+  125  git switch main 
+  126  git branch html-lists
+  127  git branch --list
+  128  git switch html-lists 
+  129  git add html-lists
+  130  git commit -m "in progress"
+  131  git status 
+  132  git push origin html-lists
+  133  git switch main 
+  134  git pull origin main 
+  135  git branch html-links
+  136  git branch --list
+  137  git switch html-links
+  138  git add html-links
+  139  git commit -m "Completed html links" 
+  140  git add html-links 
+  141  git commit -m "Completed html links" 
+  142  git push origin html-links
+  143  git status
+  144  git switch main 
+  145  git pull origin main 
+  146  git switch string-manipulation-1
+  147  cd string-manipulation-1/src
+  148  npx tsc --watch
+  149  git add string-manipulation-2 
+  150  git add string-manipulation-1
+  151  git commit -m "in progress" --no-verify 
+  152  git status
+  153  git switch main 
+  154  git branch html-intro
+  155  git branch --list
+  156  git status 
+  157  git add css-brochure-form 
+  158  git commit -m "in progress" --no-verify 
+  159  git switch css-box-model
+  160  git switch css-pseudo-classes 
+  161  git switch css-brochure-form
+  162  git status 
+  163  git switch main 
+  164  git branch css-flexbox
+  165  git switch css-flexbox 
+  166  git add css-flexbox
+  167  git commit -m "in progress" --no-verify 
+  168  git status 
+  169  git switch main 
+  170  git branch css-layout-classes 
+  171  git switch css-layout-classes 
+  172  git switch main 
+  173  git status 
+  174  git switch css-layout-classes 
+  175  git status 
+  176  git add css-layout-classes 
+  177  git status 
+  178  git commit -m "in progress" --no-verify 
+  179  git status 
+  180  git switch main 
+  181  git switch css-brochure-form
+  182  git status 
+  183  git add css-brochure-form
+  184  git status 
+  185  git commit -m "Completed css brochure form" 
+  186  git push origin css-brochure-form
+  187  git switch main
+  188  git pull origin main 
+  189  git branch css-layout-classes
+  190  git switch css-layout-classes 
+  191  git status 
+  192  git status 
+  193  git add css-layout-classes 
+  194  git status 
+  195  git commit -m "Completed css-layout-classes" 
+  196  git status 
+  197  git add css-layout-classe 
+  198  git status 
+  199  git add css-layout-classes 
+  200  git status 
+  201  git commit -m "Completed css layout classes "
+  202  git commit -m "Error" --no-verify 
+  203  git status 
+  204  git switch main 
+  205  git branch css-cascade 
+  206  git switch css-cascade
+  207  git status 
+  208  git add css-cascade 
+  209  git status 
+  210  git commit -m "Completed css cascade" 
+  211  git push origin css-cascade 
+  212  git switch main 
+  213  git pull origin main 
+  214  git switch css-flexbox 
+  215  git status 
+  216  git add css-flexbox
+  217  git status 
+  218  git commit -m "Completed css flexbox" 
+  219  git push origin css-flexbox 
+  220  git switch main 
+  221  git pull origin main 
+  222  git switch string-manipulation-2
+  223  cd string-manipulation-2/src
+  224  npx tsc --watch
+  225  git status 
+  226  git add css-canvas-medical 
+  227  git status 
+  228  git commit -m "completed css canvas medical" 
+  229  git status 
+  230  git push origin css-canvas-medical 
+  231  git status 
+  232  git switch main 
+  233  git pull origin main 
+  234  git branch dom-querying
+  235  git switch dom-querying
+  236  cd dom-querying
+  237  npx tsc --watch
+  238  git status 
+  239  git add dom-querying
+  240  git status 
+  241  git commit -m "Completed dom-querying" 
+  242  git status 
+  243  git add dom-querying
+  244  git status 
+  245  git commit -m "in progress" --no-verify
+  246  git switch main 
+  247  git branch dom-events 
+  248  git switch dom-events 
+  249  cd dom-events
+  250  npx tsc --watch
+  251  git status 
+  252  git add dom-events 
+  253  git status 
+  254  git commit -m "in progress" --no-verify 
+  255  git switch main 
+  256  git switch dom-events 
+  257  git status 
+  258  git add dom-events 
+  259  git status 
+  260  git commit -m "Completed dom events" 
+  261  git push origin dom-events
+  262  git switch main 
+  263  git pull origin main 
+  264  git dom-querying 
+  265  git switch dom-querying
+  266  git status
+  267  git add dom-querying
+  268  git status 
+  269  git commit -m "Completed dom-querying" 
+  270  git push origin dom-querying
+  271  git switch main 
+  272  git pull origin main 
+  273  git switch dom-querying
+  274  git switch dom-events 
+  275  git switch main 
+  276  git branch dom-manipulation
+  277  git switch dom-manipulation
+  278  cd dom-manipulation
+  279  npx tsc --watch
+  280  git add dom-creation
+  281  git status 
+  282  git commit -m "Completed dom creation" 
+  283  git push origin dom-creation 
+  284  git switch main 
+  285  git restore dom-creation/main.js
+  286  git status 
+  287  git switch main 
+  288  git switch dom-creation 
+  289  git status 
+  290  git add dom-creation 
+  291  git status 
+  292  git commit -m "updated the quiz" 
+  293  git push origin dom-creation 
+  294  git switch main 
+  295  git branch dom-event-delegation
+  296  git switch dom-event-delegation
+  297  git switch dom-creation 
+  298  git switch dom-event-delegation 
+  299  cd dom-event-delegation
+  300  npx tsc --watch 
+  301  git status 
+  302  git add dom-event-delegation 
+  303  git status 
+  304  git commit -m "Completed dom event delegation" 
+  305  git push origin dom-event-delegation 
+  306  git switch main 
+  307  git status 
+  308  git add dom-event-delegation 
+  309  git status 
+  310  git commit -m "quiz questions complete" 
+  311  git restore dom-event-delegation/main.js 
+  312  git status 
+  313  git commit -m "completed" 
+  314  git status 
+  315  git push origin dom-event-delegation 
+  316  git switch main 
+  317  git status 
+  318  git add dom-event-delegation 
+  319  git status 
+  320  git commit-m "done" --allow-empty 
+  321  git commit -m "done" --allow-empty 
+  322  git status 
+  323  git add dom-event-delegation
+  324  git status 
+  325  git commit-m "added material" 
+  326  git status 
+  327  \git add dom-event-delegation 
+  328  git add dom-event-delegation
+  329  git status 
+  330  git commit -m "done" 
+  331  git push origin dom-event-delegation
+  332  git switch main 
+  333  git pull origin main 
+  334  cd dom-creation
+  335  npx tsc --watch 
+  336  git add typescript-local-storage 
+  337  git commit -m "in progress" --no-verify 
+  338  git switch typescript-typing-tutor 
+  339  git switch typescript-local-storage 
+  340  git status 
+  341  git add typescript-typing-tutor 
+  342  git commit -m "in progress" --no-verify 
+  343  git switch typescript-local-storage 
+  344  cd typescript-local-storage 
+  345  npx tsc --watch 
+  346  git status 
+  347  git add typescript-and-json
+  348  git status 
+  349  git commit -m "Completed typescript and json" 
+  350  git push origin typescript-and-json 
+  351  git switch main 
+  352  git pull origin main 
+  353  git status
+  354  git status 
+  355  git add typescript-and-json
+  356  git status 
+  357  git commit -m "completed questions" 
+  358  git push origin typescript-and-json 
+  359  git switch main 
+  360  git pull origin main 
+  361  git branch typescript-local-storage 
+  362  git switch typescript-local-storage 
+  363  cd typescript-local-storage 
+  364  npx tsc --watch 
+  365  git status 
+  366  git add typescript-local-storage 
+  367  git status 
+  368  git commit -m "Completed typescript-local-storage" 
+  369  git status 
+  370  git add typescript-local-storage 
+  371  git commit -m "cannot commit" --no-verify 
+  372  git switch typescript-view-swapping 
+  373  git switch typescript-and-json
+  374  git switch typescript-local-storage 
+  375  git add typescript-local-storage 
+  376  git commit -m "in progress" --no-verify 
+  377  git switch main 
+  378  git pull origin main 
+  379  git branch issue-1-create-an-entry 
+  380  cd /workspaces 
+  381  git clone <https://github.com/edc061598/code-journal.git> 
+  382  git clone https://github.com/edc061598/code-journal.git
+  383  cd code-journal 
+  384  npm install 
+  385  git clone https://github.com/Learning-Fuze/code-journal-instructions.git
+  386  cd code-journal 
+  387  cd /workspaces 
+  388  git clone https://github.com/edc061598/code-journal.git
+  389  cd code-journal
+  390  npm install 
+  391  git branch issue-1-create-an-entry 
+  392  git branch --list 
+  393  git switch issue-1-create-an-entry 
+  394  git switch main 
+  395  git switch typescript-local-storage 
+  396  git add typescript-local-storage 
+  397  git commit -m "Completed typescript local storage" 
+  398  git push origin typescript-local-storage 
+  399  git switch main 
+  400  git pull origin main 
+  401  git status 
+  402  git commit "Completed view entries" 
+  403  git status 
+  404  git commit -m "Completed view entries" 
+  405  git add .
+  406  git commit -m "completed view entries" 
+  407  cd issue-1-create-an-entry 
+  408  npx tsc --watch 
+  409  git status 
+  410  git add issue-2-view-entries 
+  411  git add issue-2-view-entries 
+  412  git status 
+  413  git add issue-2-view-entries 
+  414  git status 
+  415  git commit -m "finished issue 2"
+  416  git add issue-2-view-entries
+  417  git branch --list 
+  418  git switch main 
+  419  git branch --list
+  420  git switch issue-2-view-entries 
+  421  git status 
+  422  git add issue-2-view-entries 
+  423  git add issue-2-view-entries 
+  424  git add issue-2-view-entries 
+  425  git status 
+  426  git add .
+  427  git status 
+  428  git commit -m "Completed view entries" 
+  429  git status \
+  430  npx tsc --watch
+  431  npx tsc --watch 
+  432  npx tsc --watch 
+  433  git switch main
+  434  git pull origin main 
+  435  git pull origin main 
+  436  git switch issue-4-delete-entry 
+  437  git add .
+  438  git status 
+  439  git commit -m 
+  440  git commit -m "added" 
+  441  git status 
+  442  git commit -m "added" --no-verify
+  443  git status 
+  444  git status 
+  445  git switch main 
+  446  git pull origin main 
+  447  git switch issue-4-delete-entry 
+  448  git pull origin main 
+  449  git branch issue-4-delete-an-entry
+  450  git status 
+  451  git pull origin main 
+  452  git switch issue-4-delete-an-entry
+  453  npx tsc --watch
+  454  git status 
+  455  git add .
+  456  git status 
+  457  git commit -m"added"
+  458  git commit -m "adde" --no-verify
+  459  git status 
+  460  git status 
+  461  git status 
+  462  git add .
+  463  git status 
+  464  git commit -m"added" 
+  465  npx tsc --watch 
+  466  npx tsc --watch 
+  467  npx tsc --watch 
+  468  npx tsc --watch
+  469  git status
+  470  git add string-manipulation-2
+  471  git status
+  472  git commit -m "Completed string manipulation 2" 
+  473  git commiti -m "Completed string manipulation 2" --no-verify 
+  474  git commit -m "Completed string manipulation 2" --no-verify
+  475  git push origin string-manipulation-2
+  476  git switch main 
+  477  git pull origin main 
+  478  git branch object-manipulation-1
+  479  git switch object-manipulation-1
+  480  cd object-manipulation-1
+  481  npx tsc --watch 
+  482  cd string-manipulation-2/src 
+  483  npx tsc --watch 
+  484  npx tsc --watch
+  485  git switch main 
+  486  git branch practice-interview-challenge
+  487  git switch practice-interview-challenge
+  488  cd practice-interview-challenge
+  489  npx tsc --watch
+  490  npx tsc --watch 
+  491  cd string-manipulation-2
+  492  npx tsc --watch 
+  493  cd string-manipulation-2
+  494  npx tsc --watch
+  495  npx tsc --watch 
+  496  git status 
+  497  git add . 
+  498  git status 
+  499  git commit -m "Completed issue 4" 
+  500  git push origin issue-4-delete-an-entry 
+  501  git add typescript-carousel
+  502  git commit -m "in progress" --no-verify 
+  503  git switch main 
+  504  git switch array-methods
+  505  git switch typescript-carousel
+  506  git switch main 
+  507  git switch typescript-operators
+  508  git switch array-methods 
+  509  git add array-methods
+  510  git commit -m "done" --no-verify 
+  511  git switch main 
+  512  git branch command-line-basics
+  513  git switch command-line-basics
+  514  man man
+  515  man cat
+  516  cat laziness.txt
+  517  cd man cat
+  518  man cat
+  519  cd man cat 
+  520  cd cat 
+  521  man cat
+  522  cat laziness.tst
+  523  cd man cat
+  524  cd cat
+  525  cd command-line-basics
+  526  man cat
+  527  cat laziness.txt
+  528  cat impatience.txt
+  529  cat hubris.txt
+  530  cat laziness.txt impatience.txt hubris.txt
+  531  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  532  cat three-virtues.txt
+  533  man ls 
+  534  man ls
+  535  ls -a
+  536  ls -F
+  537  cd command-line-basics
+  538  cd command-line-basics
+  539  man ls 
+  540  man ls
+  541  ls -a
+  542  ls -F
+  543  ls lfz-staff
+  544  ls -a
+  545  ls -a lfz-staff
+  546  ls -F lfz-staff
+  547  ls -aF lfz-staff > lfz-staff/contents.txt
+  548  cat lfz-staff/contents.txt
+  549  man pwd 
+  550  pwd 
+  551  man pwd
+  552  pwd
+  553  pwd > i-was-here.txt
+  554  ls pwd
+  555  ls 
+  556  man ls
+  557  ls pwd
+  558  ls i-was-here.txt
+  559  ls
+  560  cat lfz-staff/context.txt
+  561  cat i-was-here.txt
+  562  cat i-was-here.txt
+  563  cd command-line-basics
+  564  cat i-was-here.txt
+  565  man echo 
+  566  echo 'Hello, World!'
+  567  echo 'Hello, World!' > hello.txt
+  568  ls
+  569  cat hello.txt
+  570  man touch 
+  571  touch tag-youre-it.txt
+  572  touch boop.txt > snoot/
+  573  ls
+  574  ls snoot
+  575  touch snoop/boop.txt
+  576  touch boop.txt > snoop/boop.txt
+  577  touch boop.txt > snoot/boop.txt
+  578  ls
+  579  ls snoot/
+  580  man mkdir
+  581  mkdir parent
+  582  ls 
+  583  man mkdir
+  584  mkdir -p parent/child/grandchild
+  585  touch .gitkeep > parent/child/grandchild
+  586  ls -a
+  587  mkdir -p parent/child/grandchild
+  588  touch .gitkeep > parent/child/grandchild
+  589  mkdir -p parent/child/grandchild 
+  590  ls
+  591  touch parent/child/grandchild/.gitkeep
+  592  ls -a
+  593  ls -a 
+  594  touch parent/child/grandchild/.gitkeep
+  595  ls -a
+  596  man mv
+  597  mv pokiemans > pokemon
+  598  man mv 
+  599  mv pokiemans = pokemon
+  600  mv pokemans > pokemon
+  601  mv pokiemans
+  602  mv pokiemans/pokemon
+  603  mv --help
+  604  mv pokiemans pokemono
+  605  mv pokiemans pokemon
+  606  mv pokemono pokemon
+  607  ls 
+  608  man rm 
+  609  man rm 
+  610  rm lol.txt
+  611  ls 
+  612  rm -r kill-me/
+  613  ls 
+  614  man cp 
+  615  cp and-then.txt no-and-then.txt
+  616  ls 
+  617  cat and-then.txt no-and-then.txt
+  618  man history 
+  619  man history 
+  620  history > command-history.txt
