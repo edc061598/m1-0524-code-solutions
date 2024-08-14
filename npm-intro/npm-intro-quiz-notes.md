@@ -13,7 +13,7 @@ node package managers, angular, jshint
 - How can you create a `package.json` with `npm`?
 install node and intialize a git repository and initialize the npm in your project
 - What is a dependency and how do you add one to a package?
-
+a package required for your production. Run the command npm -install package name
 - What happens when you add a dependency to a package with `npm`?
 the file will be added to the package.json file
 - What is a devDependency and how do you add one to a package?
