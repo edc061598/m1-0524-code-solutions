@@ -31,6 +31,10 @@ prevButton?.addEventListener('click', () => {
    currentSlide?.classList.remove('current-slide');
    prevSlide?.classList.add('current-slide');
 
+    const currentDot = dotsNav.querySelector('.current-slide');
+    const prevDot:any = currentDot?.previousElementSibling;
+    updateDots(currentDot, prevDot);
+
 })
 
 nextButton?.addEventListener('click', e => {
@@ -40,12 +44,20 @@ nextButton?.addEventListener('click', e => {
   $carouselList.style.transform = 'translateX(-' + amountToMove + ')';
   currentSlide?.classList.remove('current-slide');
   nextSlide?.classList.add('current-slide');
+  const currentDot = dotsNav.querySelector('.current-slide');
+  const nextDot = currentDot?.nextElementSibling;
+   updateDots(currentDot, nextDot);
 })
 
 const moveToSlide = ($carouselList:any, currentSlide:any, targetSlide:any) => {
   $carouselList.style.transform = 'translateX(-' + targetSlide.style.left;
   currentSlide.classList.remove('current-slide');
   targetSlide.classList.add('current-slide')
+}
+
+const updateDots = (currentDot:any, targetDot:any) => {
+    currentDot?.classList.remove('current-slide');
+    targetDot.classList.add('current-slide');
 }
 
 dotsNav.addEventListener('click', e => {
@@ -56,6 +68,5 @@ dotsNav.addEventListener('click', e => {
   const targetSlide = slides[targetIndex];
 
   moveToSlide($carouselList, currentSlide, targetSlide);
-  currentDot?.classList.remove('current-slide');
-  targetDot.classList.add('current-slide');
+  updateDots(currentDot, targetDot);
 });
