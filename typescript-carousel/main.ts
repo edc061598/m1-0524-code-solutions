@@ -42,13 +42,20 @@ nextButton?.addEventListener('click', e => {
   nextSlide?.classList.add('current-slide');
 })
 
+const moveToSlide = ($carouselList:any, currentSlide:any, targetSlide:any) => {
+  $carouselList.style.transform = 'translateX(-' + targetSlide.style.left;
+  currentSlide.classList.remove('current-slide');
+  targetSlide.classList.add('current-slide')
+}
+
 dotsNav.addEventListener('click', e => {
   const targetDot = e.target.closest('button');
-  if(!targetDot){
-    return;
-  }
   const currentSlide = $carouselList.querySelector('.current-slide');
+  const currentDot = dotsNav.querySelector('.current-slide');
+  const targetIndex = dots.findIndex(dot => dot === targetDot);
+  const targetSlide = slides[targetIndex];
 
-
-
-})
+  moveToSlide($carouselList, currentSlide, targetSlide);
+  currentDot?.classList.remove('current-slide');
+  targetDot.classList.add('current-slide');
+});
