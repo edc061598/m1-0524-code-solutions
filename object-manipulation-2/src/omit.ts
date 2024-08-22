@@ -1,11 +1,10 @@
 /* exported omit */
-function omit(source:any, keys: string[]):any {
+function omit(source: any, keys: string[]): any {
   const result: any = {};
-  const allKeys = Object.keys(source);
 
-  for (const key of allKeys) {
-    if (!(key in keys)) {
-      result[key] = source[key];
+  for (const i in source) {
+    if (!keys.includes(i)) {
+      result[i] = source[i];
     }
   }
 

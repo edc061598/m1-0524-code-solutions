@@ -1,12 +1,11 @@
-"use strict";
+'use strict';
 /* exported omit */
 function omit(source, keys) {
-    const result = {};
-    const allKeys = Object.keys(source);
-    for (const key of allKeys) {
-        if (!(key in keys)) {
-            result[key] = source[key];
-        }
+  const result = {};
+  for (const i in source) {
+    if (!keys.includes(i)) {
+      result[i] = source[i];
     }
-    return result;
+  }
+  return result;
 }

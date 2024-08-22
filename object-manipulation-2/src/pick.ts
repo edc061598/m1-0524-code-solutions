@@ -1,9 +1,12 @@
 /* exported pick */
 function pick(source: any, keys: string[]): any {
-  let result: any = {};
-  for (const key in source) {
-    if (keys.includes(key)) {
-      result[key] = source[key];
+  const result: any = {};
+  for (let i: number = 0; i < keys.length; i++) {
+    const key = keys[i];
+    if (key in source) {
+      if (source[key] !== undefined) {
+        result[key] = source[key];
+      }
     }
   }
   return result;
